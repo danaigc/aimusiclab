@@ -92,7 +92,7 @@ export function GenerationHistoryCard({ index }: GenerationHistoryCardProps) {
             <span className="text-muted-foreground">Generating...</span>
             <span className="text-primary">78%</span>
           </div>
-          <Progress value={78} className="h-2" />
+          {/*<Progress value={78} className="h-2" />*/}
         </div>
       )}
 
